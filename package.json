@@ -1,0 +1,32 @@
+{
+  "name": "my-crud-politician",
+  "version": "1.0.0",
+  "description": "The objective of this app is to provide users with an engagement platform where they can submit reviews of their aldermen. By focusing on aldermen, we aim to augment local awareness of Chicago politics.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gperez13/my-CRUD-politician.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gperez13/my-CRUD-politician/issues"
+  },
+  "homepage": "https://github.com/gperez13/my-CRUD-politician#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.12.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2"
+  }
+}
