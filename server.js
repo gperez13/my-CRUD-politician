@@ -1,0 +1,41 @@
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+const session = require('express-session');
+const methodOverride = require('method-override');
+require('./db/db');
+
+
+//Controllers
+const adminController = require('./controllers/admin');
+const usersController = require('./controllers/users');
+
+
+
+
+
+
+
+
+
+app.use(express.static('public'));
+app.use(bodyParser.urlencoded({extended: false}));
+app.set('view engine', 'ejs');
+app.set('views', __dirname + '/views');
+app.use(methodOverride('_method'));
+
+
+
+
+
+
+
+
+
+app.use('/admin', adminController);
+app.use('/users', usersController);
+
+
+app.listen(3000, () =>{
+	console.log('Your server is running')
+})
