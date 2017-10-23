@@ -10,28 +10,10 @@ router.get('/', (req, res)=>{
 		if(err){
 			res.send('There has been an error with your database')
 		} else{
-			res.render('user/aldProfile', {ward: ward})
+			res.render('user/index', {ward: ward})
 		}
 	})
-})//placeholder
-
-
-router.get('/:id', (req, res)=>{
-	Ward.findById(req.params.id, (err, ward)=>{
-		if (err){
-			res.send('There has been an error with your database')
-		} else{
-			res.render('user/aldProfile', {ward: ward
-											
-											})
-		}
-	})
-})
-
-
-
-
-
+})//end of home route
 
 
 
