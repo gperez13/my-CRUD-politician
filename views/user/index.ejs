@@ -44,18 +44,11 @@
 
 
 
-	<p>Map goes here</p>
-	<img src="http://1.bp.blogspot.com/-FRJoOBZv5Bw/ThTXDad3AlI/AAAAAAAAC3M/csR2CegXk4w/s1600/old-wardmap-2003.jpg">
+	<svg></svg>
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+
 <br><br><br><br><br>
 
-<main>
-	<h2>List of Wards</h2>
-	<%ward.forEach((ward, i) =>{%>
-
-	<a href="/profile/<%= ward._id%>"><%=ward.name%></a>
-
-	<% }) %>
-</main>
 
 
 
@@ -78,7 +71,8 @@
 
 
 
-<script type="javascripts/main.js"></script>
+<script src="javascripts/map.js"></script>
+<script src="javascripts/main.js"></script>
 
 </body>
 </html>
