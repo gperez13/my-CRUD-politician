@@ -17,13 +17,11 @@ router.get('/', (req, res)=>{
 
 
 router.get('/:id', (req, res)=>{
-	Ward.findById(req.params.id, (err, ward)=>{
+	Ward.find(req.params.id, (err, ward)=>{
 		if (err){
 			res.send('There has been an error with your database')
 		} else{
-			res.render('user/aldProfile', {ward: ward
-											
-											})
+			res.render('user/aldProfile', {ward: ward[req.params.id]})
 		}
 	})
 })
