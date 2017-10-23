@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rate Your Politician</title>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+
+	<div class="dropdown">
+		
+		
+	</div>
+
+
+
+	<span id="pages">
+		
+		  <a id="nav" href="#">Home</a>
+		  <a id="nav" href="#">Content</a>
+		  <a id="nav" href="#">Contribute</a>
+		  <a id="nav" href="#">About</a>
+		
+	</span>
+
+	<span id="login">
+	    Username:  <input type="text" name="username">
+        Password:  <input type="password" name="password">
+        <button id="login">Login</button>
+    </span>
+</header>
+
+
+
+<br><br><br>
+
+	<h1>This is the Home page</h1>
+
+
+
+
+
+	<p>Map goes here</p>
+	<img src="http://1.bp.blogspot.com/-FRJoOBZv5Bw/ThTXDad3AlI/AAAAAAAAC3M/csR2CegXk4w/s1600/old-wardmap-2003.jpg">
+<br><br><br><br><br>
+
+<main>
+	<h2>List of Wards</h2>
+	<%ward.forEach((ward, i) =>{%>
+
+	<a href="/profile/<%= ward._id%>"><%=ward.name%></a>
+
+	<% }) %>
+</main>
+
+
+
+<br><br><br><br><br>
+
+
+
+
+
+	<footer> 
+		<span>Contact</span><br>
+
+		  <a href="#">Home</a>
+		  <a href="#">Content</a>
+		  <a href="#">Contribute</a>
+		  <a href="#">About</a>
+
+	</footer>
+
+
+
+
+<script type="javascripts/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+	<h1>Delete Reviews</h1><br><br><br><br>
+
+	<select name="wardId">
+		<%ward.forEach((ward)=>{ %>
+		<option value="<%=ward._id%>"><%=ward.name%></option>
+
+		<% })%>
+	</select><br><br><br>
+
+
+
+	<% for(let i = 0; i < ward.length; i++){%>
+			<h1><%=ward[i].name%></h1><br>
+
+		<%for(let x = 0; x < ward[i].reviews.length; x++){%>
+			<p><%=ward[i].reviews[x].username%></p>
+			<p><%=ward[i].reviews[x].date%> Rating: <%=ward[i].reviews[x].rating%></p>
+			<p><%=ward[i].reviews[x].body%></p>
+			<button type="submit">Delete</button>
+
+
+		<%}%>
+
+		<br><br><br><br><br><br>
+	<%}%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -9,6 +9,7 @@ require('./db/db');
 //Controllers
 const adminController = require('./controllers/admin');
 const usersController = require('./controllers/users');
+const homeController = require('./controllers/home');
 
 
 
@@ -33,7 +34,8 @@ app.use(methodOverride('_method'));
 
 
 app.use('/admin', adminController);
-app.use('/users', usersController);
+app.use('/profile', usersController);
+app.use('/', homeController);
 
 
 app.listen(3000, () =>{
