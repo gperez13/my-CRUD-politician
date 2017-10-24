@@ -23,9 +23,9 @@ router.get('/:id', (req, res)=>{
 		if (err){
 			res.send('There has been an error with your database')
 		} else{
-
-			res.render('user/aldProfile', {ward: ward[req.params.id]
-											
+			// console.log(req.params.id)
+			res.render('user/aldProfile', {ward: ward[req.params.id],
+											number: req.params.id
 											})
 
 		}
@@ -34,5 +34,16 @@ router.get('/:id', (req, res)=>{
 
 
 
+router.post('/:id/new', (req, res)=>{
+	Ward.find((err, foundWard)=>{
+		Review.create(req.body, (err, createdReview)=>{
+			foundWard[req.params.id].reviews.push(createdReview);
+			foundWard[req.params.id].save((err, data)=>{
+				console.log(data)
+				res.redirect('/profile/' + req.params.id)
+			})
+		})
+	})
+})//Posting Reviews
 
 module.exports = router;
