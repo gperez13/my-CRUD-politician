@@ -37,3 +37,22 @@ body footer {
   background-color: #013248;
   color: white;
 }
+.background {
+  fill: #eee;
+  pointer-events: all;
+}
+.map-layer {
+  fill: #fff;
+  stroke: #aaa;
+}
+.effect-layer {
+  pointer-events: none;
+}
+text {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+text.big-text {
+  font-size: 30px;
+  font-weight: 400;
+}
