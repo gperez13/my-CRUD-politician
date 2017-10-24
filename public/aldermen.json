@@ -17,7 +17,7 @@
 
 	{
 	"name": "Brian Hopkins",
-	"image": "",
+	"image": "https://www.cityclub-chicago.org/content/images/speakers/Hopkins_Head_Shot.jpg/image-full;max$194,0.ImageHandler",
 	"email": "ward02@cityofchicago.org",
 	"phone": "312.643.2299",
 	"address": "1400 N. Ashland Chicago, IL 60622"
@@ -48,7 +48,7 @@
 
 	{
 	"name": "Roderick Sawyer",
-	"image": "",
+	"image": "https://ionechicagodefender.files.wordpress.com/2015/05/rodericksawyer.jpg",
 	"email": "ward06@cityofchicago.org",
 	"phone": "773.635.0006",
 	"address": "700 E. 79th Street Chicago, IL 60619"
@@ -56,7 +56,7 @@
 
 	{
 	"name": "Gregory I. Mitchell",
-	"image": "",
+	"image": "http://elections.chicagotribune.com/static/electioncenter2/IL_edboard/greg-mitchell.jpg",
 	"email": "ward07@cityofchicago.org",
 	"phone": "773.731.7777",
 	"address": "2249 East 95th St. Chicago Illinois 60617"
@@ -80,14 +80,14 @@
 
 	{
 	"name": "Susan Sadlowski Garza",
-	"image": "",
+	"image": "http://elections.chicagotribune.com/2015-04-07/static/electioncenter2/IL_edboard/susan-sadlowski-garza.jpg",
 	"email": "ward10@cityofchicago.org",
 	"phone": "773.768.8138",
 	"address": "10500 S. Ewing Avenue Chicago, IL 60617"
 	},
 		{
 	"name": "Patrick D. Thompson",
-	"image": "",
+	"image": "http://www.gazettechicago.com/index/wp-content/uploads/2015/04/23.jpg",
 	"email": "ward11@cityofchicago.org",
 	"phone": "773.254.6677",
 	"address": "3659 S. Halsted St. Chicago, IL 60609"
@@ -103,7 +103,7 @@
 
 	{
 	"name": "Marty Quinn",
-	"image": "",
+	"image": "http://photodesk.chicagotribune.com.s3.amazonaws.com/Graphics/council/13quinn.JPG",
 	"email": "ward13@cityofchicago.org",
 	"phone": "773.581.8000",
 	"address": "6500 S. Pulaski Rd. Chicago, IL 60629"
@@ -119,7 +119,7 @@
 
 	{
 	"name": "Raymond A. Lopez",
-	"image": "",
+	"image": "http://nebula.wsimg.com/dfcb214f6416de0a982c02226651f8e9?AccessKeyId=030AC2D2121446AC3E05&disposition=0&alloworigin=1",
 	"email": "ward15@cityofchicago.org",
 	"phone": "773.306.0837",
 	"address": "1650 W 63rd St Chicago, IL 60636 "
@@ -127,7 +127,7 @@
 
 	{
 	"name": "Toni L. Foulkes",
-	"image": "",
+	"image": "http://chicagotonight.wttw.com/sites/default/files/article/image-non-gallery/16_Toni_Foulkes.jpg",
 	"email": "ward16@cityofchicago.org",
 	"phone": "773.863.0220",
 	"address": "1504 W. 63rd St Chicago, IL 60636"
@@ -146,12 +146,12 @@
 	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/18/aldward18.jpg",
 	"email": "ward18@cityofchicago.org",
 	"phone": "773.284.5057",
-	"address": "8359 S. Pulaski  Rd. Chicago, IL 60652"
+	"address": "8359 S. Pulaski Rd. Chicago, IL 60652"
 	},
 
 	{
 	"name": "Matthew O'Shea",
-	"image": "",
+	"image": "http://www.rtams.com/images/AGO_Apps/Ward/Ward19.jpg",
 	"email": "ward19@cityofchicago.org",
 	"phone": "773.238.8766",
 	"address": "10400 S. Western Ave. Chicago, IL 60643"
@@ -191,7 +191,7 @@
 
 	{
 	"name": "Michael Scott Jr.",
-	"image": "",
+	"image": "http://nebula.wsimg.com/629c566b9624e31bfc343c43ccf725d6?AccessKeyId=030AC2D2121446AC3E05&disposition=0&alloworigin=1",
 	"email": "ward24@cityofchicago.org",
 	"phone": "773.533.2400",
 	"address": "1158 S. Keeler Ave. Chicago, IL 60624"
@@ -223,7 +223,7 @@
 
 	{
 	"name": "Jason Ervin",
-	"image": "",
+	"image": "https://pbs.twimg.com/profile_images/1344570304/Jason_head_shot.png",
 	"email": "ward28@cityofchicago.org",
 	"phone": "773.533.0900",
 	"address": "2602 W. 16th St. Chicago, IL 60612"
@@ -231,7 +231,7 @@
 
 	{
 	"name": "Christopher Taliaferro",
-	"image": "",
+	"image": "https://pbs.twimg.com/profile_images/495643907221229568/95hJb5zw.png",
 	"email": "ward29@cityofchicago.org",
 	"phone": "773.237.6460",
 	"address": "6272 W. North Ave. Chicago, IL 60639"
@@ -247,7 +247,7 @@
 
 	{
 	"name": "Milly Santiago",
-	"image": "",
+	"image": "https://i.ytimg.com/vi/mOG6kXC7c_s/hqdefault.jpg",
 	"email": "ward31@cityofchicago.org",
 	"phone": "773.278.0031",
 	"address": "2521 N. Pulaski Rd. Chicago, IL 60639"
@@ -279,7 +279,7 @@
 
 	{
 	"name": "Carlos Ramirez-Rosa",
-	"image": "",
+	"image": "http://www.chicagomag.com/images/2015/0515/C201505-312-Young-Guns-Carlos-Ramirez-Rosa.jpg",
 	"email": "ward35@cityofchicago.org",
 	"phone": "773.887.3772",
 	"address": "2710 N. Sawyer Chicago, IL 60647"
@@ -287,7 +287,7 @@
 
 	{
 	"name": "Gilbert Villegas",
-	"image": "",
+	"image": "http://nebula.wsimg.com/950a225407922774713d1cb6b6324111?AccessKeyId=030AC2D2121446AC3E05&disposition=0&alloworigin=1",
 	"email": "ward36@cityofchicago.org",
 	"phone": "773.745.4636",
 	"address": "6934 W. Diversey Ave. Chicago, IL 60607"
@@ -303,7 +303,7 @@
 
 	{
 	"name": "Nicholas Sposato",
-	"image": "",
+	"image": "http://chicagotonight.wttw.com/sites/default/files/styles/article-medium/public/article/image-non-gallery/38_Nicholas_Sposato_0.jpg",
 	"email": "info@aldermansposato.com",
 	"phone": "773.283.3838",
 	"address": "3821 N. Harlem Ave. Chicago, IL 60634"
@@ -327,7 +327,7 @@
 
 	{
 	"name": "Anthony V. Napolitano",
-	"image": "",
+	"image": "http://www.norwoodpark.org/wp-content/uploads/2013/12/alderman.png",
 	"email": "ward41@cityofchicago.org",
 	"phone": "773.631.2241",
 	"address": "7442 N. Harlem Ave. Chicago, IL 60631"
@@ -343,7 +343,7 @@
 
 	{
 	"name": "Michele Smith",
-	"image": "",
+	"image": "http://takebackchicago.org/sites/default/files/headshots/43michelesmith.jpg",
 	"email": "Yourvoice@ward43.org",
 	"phone": "773.348.9500",
 	"address": "2523 N. Halsted St. Chicago, IL 60614"
@@ -359,7 +359,7 @@
 
 	{
 	"name": "John Arena",
-	"image": "",
+	"image": "http://ward45.org/wp-content/uploads/JohnArena_Portrait_FB.jpg",
 	"email": "ward45@cityofchicago.org",
 	"phone": "773.286.4545",
 	"address": "4754 N. Milwaukee Ave. Chicago, IL 60630"
@@ -367,7 +367,7 @@
 
 	{
 	"name": "James Cappleman",
-	"image": "",
+	"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/JCappleman.jpg/220px-JCappleman.jpg",
 	"email": "ward46@cityofchicago.org",
 	"phone": "773.878.4646",
 	"address": "4544 N. Broadway Chicago, IL 60640"
@@ -383,7 +383,7 @@
 
 	{
 	"name": "Harry Osterman",
-	"image": "",
+	"image": "http://takebackchicago.org/sites/default/files/headshots/48harryosterman.jpg",
 	"email": "ward48@cityofchicago.org",
 	"phone": "773.784.5277",
 	"address": "5533 N. Broadway Ave. Chicago, IL 60640"
@@ -399,7 +399,7 @@
 
 	{
 	"name": "Debra Silverstein",
-	"image": "",
+	"image": "https://pbs.twimg.com/profile_images/567409895247331330/5R5-yZoN.jpeg",
 	"email": "ward50@cityofchicago.org",
 	"phone": "773.262.1050",
 	"address": "2949 W. Devon Ave. Chicago, IL 60659"
