@@ -1,0 +1,408 @@
+[
+		{
+	"name": "Mayor Quimby",
+	"image": "https://upload.wikimedia.org/wikipedia/en/5/51/Mayor_Quimby.png",
+	"email": "wardzero@.org",
+	"phone": "312.643.2299",
+	"address": "123 Evergreen Terrace Springfield, IL 6000"
+	},
+
+	{
+	"name": "Joe Moreno",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/01/aldward01.jpg",
+	"email": "ward01@cityofchicago.org",
+	"phone": "773.278.0101",
+	"address": "2740 W. North Ave Chicago, IL 60647"
+	},
+
+	{
+	"name": "Brian Hopkins",
+	"image": "",
+	"email": "ward02@cityofchicago.org",
+	"phone": "312.643.2299",
+	"address": "1400 N. Ashland Chicago, IL 60622"
+	},
+
+	{
+	"name": "Pat Dowell",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/03/pdowellsm.jpg",
+	"email": "ward03@cityofchicago.org",
+	"phone": "773.373.9273",
+	"address": "5046 S. State St. Chicago, IL 60609"
+	},
+		{
+	"name": "Sophia King",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/04/aldward4.jpg",
+	"email": "ward04@cityofchicago.org",
+	"phone": "773.536.8103",
+	"address": "435 E. 35th Street Chicago, IL 60616"
+	},	
+
+	{
+	"name": "Leslie A. Hairston",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/05/aldward5photo.jpg",
+	"email": "ward05@cityofchicago.org",
+	"phone": "773.324.5555",
+	"address": "2325 E. 71st Street Chicago, IL 60649"
+	},
+
+	{
+	"name": "Roderick Sawyer",
+	"image": "",
+	"email": "ward06@cityofchicago.org",
+	"phone": "773.635.0006",
+	"address": "700 E. 79th Street Chicago, IL 60619"
+	},	
+
+	{
+	"name": "Gregory I. Mitchell",
+	"image": "",
+	"email": "ward07@cityofchicago.org",
+	"phone": "773.731.7777",
+	"address": "2249 East 95th St. Chicago Illinois 60617"
+	},
+
+	{
+	"name": "Michelle A. Harris",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/08/aldward8.jpg",
+	"email": "ward08@cityofchicago.org",
+	"phone": "773.874.3300",
+	"address": "8539 S. Cottage Grove Ave. Chicago, IL 60619"
+	},
+
+	{
+	"name": "Anthony Beale",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/09/aldward9.jpg",
+	"email": "ward09@cityofchicago.org",
+	"phone": "773.785.1100",
+	"address": "34 East 112th Place Chicago, IL 60628"
+	},
+
+	{
+	"name": "Susan Sadlowski Garza",
+	"image": "",
+	"email": "ward10@cityofchicago.org",
+	"phone": "773.768.8138",
+	"address": "10500 S. Ewing Avenue Chicago, IL 60617"
+	},
+		{
+	"name": "Patrick D. Thompson",
+	"image": "",
+	"email": "ward11@cityofchicago.org",
+	"phone": "773.254.6677",
+	"address": "3659 S. Halsted St. Chicago, IL 60609"
+	},	
+
+	{
+	"name": "George A. Cardenas",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/12/aldward12.jpg",
+	"email": "ward12@cityofchicago.org",
+	"phone": "773.523.8250",
+	"address": "3476 S. Archer Chicago, IL 60608"
+	},
+
+	{
+	"name": "Marty Quinn",
+	"image": "",
+	"email": "ward13@cityofchicago.org",
+	"phone": "773.581.8000",
+	"address": "6500 S. Pulaski Rd. Chicago, IL 60629"
+	},
+
+	{
+	"name": "Edward M. Burke",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/14/aldward14.jpg",
+	"email": "ward14@cityofchicago.org",
+	"phone": "773.471.1414",
+	"address": "2650 W. 51st Street Chicago, IL 60632"
+	},
+
+	{
+	"name": "Raymond A. Lopez",
+	"image": "",
+	"email": "ward15@cityofchicago.org",
+	"phone": "773.306.0837",
+	"address": "1650 W 63rd St Chicago, IL 60636 "
+	},	
+
+	{
+	"name": "Toni L. Foulkes",
+	"image": "",
+	"email": "ward16@cityofchicago.org",
+	"phone": "773.863.0220",
+	"address": "1504 W. 63rd St Chicago, IL 60636"
+	},	
+
+	{
+	"name": "David Moore",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/17/Alderman-Moore.JPG",
+	"email": "ward17@cityofchicago.org",
+	"phone": "773.783.3672",
+	"address": "1344 W. 79th St. Chicago, IL 60620"
+	},
+
+	{
+	"name": "Derrick G. Curtis",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/18/aldward18.jpg",
+	"email": "ward18@cityofchicago.org",
+	"phone": "773.284.5057",
+	"address": "8359 S. Pulaski  Rd. Chicago, IL 60652"
+	},
+
+	{
+	"name": "Matthew O'Shea",
+	"image": "",
+	"email": "ward19@cityofchicago.org",
+	"phone": "773.238.8766",
+	"address": "10400 S. Western Ave. Chicago, IL 60643"
+	},
+
+	{
+	"name": "Willie B. Cochran",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/20/aldward20.jpg",
+	"email": "ward20@cityofchicago.org",
+	"phone": "773.955.5610",
+	"address": "6357 S. Cottage Grove Chicago, IL 60637"
+	},	
+
+	{
+	"name": "Howard Brookins Jr.",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/21/aldward21.jpg",
+	"email": "ward21@cityofchicago.org",
+	"phone": "773.881.9300",
+	"address": "9011 S. Ashland, Unit B Chicago, IL 60620"
+	},	
+
+	{
+	"name": "Ricardo Munoz",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/22/aldward22.jpg",
+	"email": "ward22@cityofchicago.org",
+	"phone": "773.762.1771",
+	"address": "2500 S. St Louis Ave. Chicago, IL 60623"
+	},
+
+	{
+	"name": "Michael R. Zalewski",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/23/aldward23.jpg",
+	"email": "ward23@cityofchicago.org",
+	"phone": "773.582.4444",
+	"address": "6247 S. Archer Ave. Chicago, IL 60638"
+	},
+
+	{
+	"name": "Michael Scott Jr.",
+	"image": "",
+	"email": "ward24@cityofchicago.org",
+	"phone": "773.533.2400",
+	"address": "1158 S. Keeler Ave. Chicago, IL 60624"
+	},
+
+	{
+	"name": "Daniel S. Solis",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/25/aldward25.jpg",
+	"email": "ward25@cityofchicago.org",
+	"phone": "773.523.4100",
+	"address": "1645 South Blue Island Ave. Chicago, IL 60608"
+	},	
+
+	{
+	"name": "Roberto Maldonado",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/26/aldward26.jpg",
+	"email": "ward26@cityofchicago.org",
+	"phone": "773.395.0143",
+	"address": "2511 W. Division St. Chicago, IL 60622"
+	},	
+
+	{
+	"name": "Walter Burnett, Jr.",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/27/aldburnett.jpg",
+	"email": "ward27@cityofchicago.org",
+	"phone": "312.432.1995",
+	"address": "4 N. Western Ave. Unit 1C Chicago, IL 60612"
+	},
+
+	{
+	"name": "Jason Ervin",
+	"image": "",
+	"email": "ward28@cityofchicago.org",
+	"phone": "773.533.0900",
+	"address": "2602 W. 16th St. Chicago, IL 60612"
+	},
+
+	{
+	"name": "Christopher Taliaferro",
+	"image": "",
+	"email": "ward29@cityofchicago.org",
+	"phone": "773.237.6460",
+	"address": "6272 W. North Ave. Chicago, IL 60639"
+	},
+
+	{
+	"name": "Ariel E. Reboyras",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/30/aldward30.jpg",
+	"email": "773.794.3095",
+	"phone": "ward30@cityofchicago.org",
+	"address": "3559 N. Milwaukee Ave. Chicago, IL 60641"
+	},	
+
+	{
+	"name": "Milly Santiago",
+	"image": "",
+	"email": "ward31@cityofchicago.org",
+	"phone": "773.278.0031",
+	"address": "2521 N. Pulaski Rd. Chicago, IL 60639"
+	},	
+
+	{
+	"name": "Scott Waguespack",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/32/aldward32.jpg",
+	"email": "info@ward32.org",
+	"phone": "773.248.1330",
+	"address": "2657 N. Clybourn Chicago, IL 60614"
+	},
+
+	{
+	"name": "Deborah Mell",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/33/aldward33.jpg",
+	"email": "ward33@cityofchicago.org",
+	"phone": "773.478.8040",
+	"address": "3001 W. Irving Park Road Chicago, IL 60618"
+	},
+
+	{
+	"name": "Carrie M. Austin",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/34/aldward34.png",
+	"email": "ward34@cityofchicago.org",
+	"phone": "773.928.6961",
+	"address": "507 W. 111th St. Chicago, IL 60628"
+	},
+
+	{
+	"name": "Carlos Ramirez-Rosa",
+	"image": "",
+	"email": "ward35@cityofchicago.org",
+	"phone": "773.887.3772",
+	"address": "2710 N. Sawyer Chicago, IL 60647"
+	},	
+
+	{
+	"name": "Gilbert Villegas",
+	"image": "",
+	"email": "ward36@cityofchicago.org",
+	"phone": "773.745.4636",
+	"address": "6934 W. Diversey Ave. Chicago, IL 60607"
+	},	
+
+	{
+	"name": "Emma Mitts",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/37/aldward37.jpg",
+	"email": "ward37@cityofchicago.org",
+	"phone": "773.379.0960",
+	"address": "4924 W. Chicago Ave. Chicago, IL 60651"
+	},
+
+	{
+	"name": "Nicholas Sposato",
+	"image": "",
+	"email": "info@aldermansposato.com",
+	"phone": "773.283.3838",
+	"address": "3821 N. Harlem Ave. Chicago, IL 60634"
+	},
+
+	{
+	"name": "Margaret Laurino",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/39/aldward39.jpg",
+	"email": "ward39@cityofchicago.org",
+	"phone": "773.736.5594",
+	"address": "4404 West Lawrence Ave. Chicago, IL 60630"
+	},
+
+	{
+	"name": "Patrick J. O'Connor",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/40/aldward40.gif",
+	"email": "ward40@cityofchicago.org",
+	"phone": "773.769.1140",
+	"address": "5850 N. Lincoln Ave. Chicago, IL 60659"
+	},	
+
+	{
+	"name": "Anthony V. Napolitano",
+	"image": "",
+	"email": "ward41@cityofchicago.org",
+	"phone": "773.631.2241",
+	"address": "7442 N. Harlem Ave. Chicago, IL 60631"
+	},	
+
+	{
+	"name": "Brendan Reilly",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/42/aldward42.jpg",
+	"email": "ward42@cityofchicago.org",
+	"phone": "312.642.4242",
+	"address": "325 W. Huron St. Suite 510 Chicago, IL 60654"
+	},
+
+	{
+	"name": "Michele Smith",
+	"image": "",
+	"email": "Yourvoice@ward43.org",
+	"phone": "773.348.9500",
+	"address": "2523 N. Halsted St. Chicago, IL 60614"
+	},
+
+	{
+	"name": "Thomas M. Tunney",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/44/aldward44.jpg",
+	"email": "ward44@cityofchicago.org",
+	"phone": "773.525.6034",
+	"address": "3223 North Sheffield Ave. Chicago, IL 60657"
+	},
+
+	{
+	"name": "John Arena",
+	"image": "",
+	"email": "ward45@cityofchicago.org",
+	"phone": "773.286.4545",
+	"address": "4754 N. Milwaukee Ave. Chicago, IL 60630"
+	},
+
+	{
+	"name": "James Cappleman",
+	"image": "",
+	"email": "ward46@cityofchicago.org",
+	"phone": "773.878.4646",
+	"address": "4544 N. Broadway Chicago, IL 60640"
+	},
+
+	{
+	"name": "Ameya Pawar",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/47/aldward47.jpg",
+	"email": "ward47@cityofchicago.org",
+	"phone": "773.868.4747",
+	"address": "4243 N. Lincoln Ave. Chicago, IL 60618"
+	},
+
+	{
+	"name": "Harry Osterman",
+	"image": "",
+	"email": "ward48@cityofchicago.org",
+	"phone": "773.784.5277",
+	"address": "5533 N. Broadway Ave. Chicago, IL 60640"
+	},
+
+	{
+	"name": "Joseph Moore",
+	"image": "https://www.cityofchicago.org/content/dam/city/about/wards/49/aldward49.jpg",
+	"email": "ward49@cityofchicago.org",
+	"phone": "773.338.5796",
+	"address": "7356 N. Greenview Ave. Chicago, IL 60626"
+	},
+
+	{
+	"name": "Debra Silverstein",
+	"image": "",
+	"email": "ward50@cityofchicago.org",
+	"phone": "773.262.1050",
+	"address": "2949 W. Devon Ave. Chicago, IL 60659"
+	}
+
+]

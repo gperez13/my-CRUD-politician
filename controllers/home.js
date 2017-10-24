@@ -10,6 +10,7 @@ router.get('/', (req, res)=>{
 		if(err){
 			res.send('There has been an error with your database')
 		} else{
+			console.log(ward)
 			res.render('user/index', {ward: ward})
 		}
 	})
