@@ -32,6 +32,23 @@
 	
 
 
+<form action="/profile/<%= number %>/new" method="POST">
+
+	<select name="aldId"><option><%=ward.name%></option></select>
+	Username: <input type="text" name="username"><br>
+	Date: <input type="text" name="date"><br>
+	Body: <input type="text" name="body"><br>
+	Rating <input type="text" name="rating"><br>
+	<button type="submit" value="Publish Review">New Review</button><br>
+
+
+</form>
+
+
+
+
+
+
 
 	<div>
 		<h1>Alderman <%=ward.name%></h1>
