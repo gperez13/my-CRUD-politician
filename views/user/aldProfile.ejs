@@ -13,10 +13,10 @@
 
 	<span id="pages">
 		
-		  <a id="nav" href="#">Home</a>
+		  <a id="nav" href="/">Home</a>
 		  <a id="nav" href="#">Content</a>
 		  <a id="nav" href="#">Contribute</a>
-		  <a id="nav" href="#">About</a>
+		  <a id="nav" href="/about">About</a>
 		
 	</span>
 
@@ -38,9 +38,9 @@
 		<img src="<%=ward.image%>">
 		<div>Email: <%=ward.email%></div>
 		<div>Phone: <%=ward.phone%></div>
-		<div>Address: <%=ward.address%></div>		
+		<div>Address: <%=ward.address%></div>
 		<div>Score: <%=ward.compositeScore%></div>
-		<div>Number of Reviews: <%=ward.totalReviews%></div>
+		<div>Number of Reviews: <%=ward.reviews.length%></div>
 
 	</div>
 

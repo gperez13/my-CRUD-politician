@@ -16,6 +16,13 @@ router.get('/', (req, res)=>{
 	})
 })//end of home route
 
+router.get('/about', (req, res)=>{
+	res.render('user/about', {})
+})
+
+
+
+
 
 
 

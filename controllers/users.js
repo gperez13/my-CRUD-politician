@@ -16,6 +16,8 @@ router.get('/', (req, res)=>{
 })//placeholder
 
 
+
+
 router.get('/:id', (req, res)=>{
 	Ward.find(req.params.id, (err, ward)=>{
 		if (err){

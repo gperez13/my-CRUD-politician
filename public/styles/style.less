@@ -4,6 +4,54 @@ body{
 
 
 	header {
+
+
+	.dropbtn {
+	    background-color: #4CAF50;
+	    color: white;
+	    padding: 16px;
+	    font-size: 16px;
+	    border: none;
+	    cursor: pointer;
+	}
+
+	.dropdown {
+	    position: relative;
+	    display: inline-block;
+	}
+
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    right: 0;
+	    background-color: #f9f9f9;
+	    min-width: 160px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    z-index: 1;
+	}
+
+	.dropdown-content a {
+	    color: white;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	}
+
+	.dropdown-content a:hover {
+		background-color: #f1f1f1
+	}
+
+	.dropdown:hover .dropdown-content {
+	    display: block;
+	}
+
+	.dropdown:hover .dropbtn {
+	    background-color: #3e8e41;
+	}
+
+
+
+
 		height: 3rem;
 		padding-top: 10px;
 		text-align: right;
@@ -12,10 +60,6 @@ body{
 		font-size: 12px;
 
 
-		#pages{
-			
-		}
-
 		#login{
 			
 		}
@@ -23,7 +67,7 @@ body{
 			color: white;
 		}
 
-	}
+	}//end of header tag
 
 
 	button {
@@ -85,42 +129,9 @@ text.big-text{
 }
 
 
-.drop{
-	background-color: red;
-	color: purple;
-	padding: 16px;
-	font-size: 16px;
-	border: none;
-	
-}
-
-.dropdown{
-
-}
 
 
 
-
-}
-
-
-.pages{
-	display: none;
-	position: absolute;
-	background-color: gray;
-	z-index: 1;
-
-
-	a{
-	color: white;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-
-	:hover{
-		background-color: #0198DD;
-	}
-	}
 
 
 }

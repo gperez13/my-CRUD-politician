@@ -8,8 +8,8 @@ const wardSchema = new mongoose.Schema({
 	email: String,
 	phone: String,
 	address: String,
-	compositeScore: String,
-	totalReviews: Number,
+	// compositeScore: String,
+	// totalReviews: Number,
 	reviews: [Review.schema]
 });
 
