@@ -54,7 +54,7 @@ router.post('/create', (req,res)=>{
 
 
 router.post('/new', (req, res)=>{
-	Ward.findById(req.body.wardId, (err, foundWard)=>{
+	Ward.find(req.params, (err, foundWard)=>{
 		Review.create(req.body, (err, createdReview)=>{
 			foundWard.reviews.push(createdReview);
 			foundWard.save((err, data)=>{
