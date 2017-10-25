@@ -78,6 +78,15 @@ body footer {
   background-color: #013248;
   color: white;
 }
+body main {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+body textarea {
+  width: 300px;
+  height: 150px;
+}
 body .background {
   fill: #eee;
   pointer-events: all;
