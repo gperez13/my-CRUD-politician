@@ -34,7 +34,6 @@
 
 <form action="/profile/<%= number %>/new" method="POST">
 
-	<select name="aldId"><option><%=ward.name%></option></select>
 	Username: <input type="text" name="username"><br>
 	Date: <input type="text" name="date"><br>
 	Body: <input type="text" name="body"><br>
@@ -56,9 +55,6 @@
 		<div>Email: <%=ward.email%></div>
 		<div>Phone: <%=ward.phone%></div>
 		<div>Address: <%=ward.address%></div>
-		<% let avg = 0%>
-
-		<div>Score: <%=avg%></div>
 		<div>Number of Reviews: <%=ward.reviews.length%></div>
 
 	</div>
@@ -70,22 +66,7 @@
 <br><br><br>
 
 
-	<div>
-		<h1>Reviews</h1>
-		<%ward.reviews.forEach((review)=>{%>
-		<h3><%=review.username%></h3>
-		<div>Date: <%=review.date%> Rating: <%=review.rating%></div>
-		<br>
-		<p><%=review.body%></p>
 
-		<form>
-			<button>Like</button>
-			<button>Edit</button>
-
-		</form><br><br>
-
-		<%})%>
-	</div>
 
 <p>---------------------------------------------------------------</p>
 
