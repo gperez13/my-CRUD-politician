@@ -29,6 +29,7 @@
 
 <br><br><br>
 
+<<<<<<< HEAD
 	
 
 
@@ -49,12 +50,29 @@
 
 
 
+=======
+>>>>>>> 2a529e6c4159ed565ecf14b5eb397c11b7167976
 	<div>
 		<h1>Alderman <%=ward.name%></h1>
 		<img src="<%=ward.image%>">
 		<div>Email: <%=ward.email%></div>
 		<div>Phone: <%=ward.phone%></div>
 		<div>Address: <%=ward.address%></div>
+<<<<<<< HEAD
+=======
+		<div>Score:<% if(ward.reviews.length > 0) { %>
+					<% let ratings = 0 %>
+					<%for(let i=0; i < ward.reviews.length; i++) {%>
+						<% ratings += ward.reviews[i].rating %>
+					<% } %>
+					<%= Math.round(100 * (ratings / ward.reviews.length)) /100  %>
+					 / 5
+					<% }else { %>
+						No Reviews Yet
+						<% } %>
+		
+		</div>
+>>>>>>> 2a529e6c4159ed565ecf14b5eb397c11b7167976
 		<div>Number of Reviews: <%=ward.reviews.length%></div>
 
 	</div>
@@ -65,8 +83,42 @@
 
 <br><br><br>
 
+	<div>
+		<h1>Write a Review</h1>
+			<form action="/profile/<%= number %>/new" method="POST">
+				Username: <input type="text" name="username"><br>
+				Date: <input type="date" name="date"><br>
+				Body: <input type="text" name="body"><br>
+				Rating: <input type="number" min="0" max="5" name="rating"><br>
+				<button type="submit" value="Publish Review">New Review</button><br>
+			</form>
+		
+	</div>
 
+	<br>
+	<br>
 
+<<<<<<< HEAD
+
+=======
+	<div>
+		<h1>Reviews</h1> <br>
+		<%ward.reviews.forEach((review)=>{%>
+		<h3><%=review.username%></h3>
+		<div>Date: <%=review.date%> Rating: <%=review.rating%></div>
+		<br>
+		<p><%=review.body%></p>
+
+		<section>
+			<button><a href="/profile/<%= review._id%>/edit/<%= number %>">Edit</a></button>
+			<form action="/profile/<%= review._id%>/<%= number %>?_method=DELETE" method="POST">
+				<input type="submit" value="Delete">
+			</form><br><br>
+		</section>
+
+		<%})%>
+	</div>
+>>>>>>> 2a529e6c4159ed565ecf14b5eb397c11b7167976
 
 <p>---------------------------------------------------------------</p>
 
