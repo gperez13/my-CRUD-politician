@@ -29,37 +29,14 @@
 
 <br><br><br>
 
-<<<<<<< HEAD
-	
 
-
-<form action="/profile/<%= number %>/new" method="POST">
-
-	Username: <input type="text" name="username"><br>
-	Date: <input type="text" name="date"><br>
-	Body: <input type="text" name="body"><br>
-	Rating <input type="text" name="rating"><br>
-	<button type="submit" value="Publish Review">New Review</button><br>
-
-
-</form>
-
-
-
-
-
-
-
-=======
->>>>>>> 2a529e6c4159ed565ecf14b5eb397c11b7167976
 	<div>
 		<h1>Alderman <%=ward.name%></h1>
 		<img src="<%=ward.image%>">
 		<div>Email: <%=ward.email%></div>
 		<div>Phone: <%=ward.phone%></div>
 		<div>Address: <%=ward.address%></div>
-<<<<<<< HEAD
-=======
+
 		<div>Score:<% if(ward.reviews.length > 0) { %>
 					<% let ratings = 0 %>
 					<%for(let i=0; i < ward.reviews.length; i++) {%>
@@ -72,7 +49,6 @@
 						<% } %>
 		
 		</div>
->>>>>>> 2a529e6c4159ed565ecf14b5eb397c11b7167976
 		<div>Number of Reviews: <%=ward.reviews.length%></div>
 
 	</div>
@@ -98,9 +74,6 @@
 	<br>
 	<br>
 
-<<<<<<< HEAD
-
-=======
 	<div>
 		<h1>Reviews</h1> <br>
 		<%ward.reviews.forEach((review)=>{%>
@@ -118,7 +91,7 @@
 
 		<%})%>
 	</div>
->>>>>>> 2a529e6c4159ed565ecf14b5eb397c11b7167976
+
 
 <p>---------------------------------------------------------------</p>
 
