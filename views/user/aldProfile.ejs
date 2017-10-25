@@ -35,9 +35,18 @@
 		<div>Email: <%=ward.email%></div>
 		<div>Phone: <%=ward.phone%></div>
 		<div>Address: <%=ward.address%></div>
-		<% let avg = 0%>
-
-		<div>Score: <%=avg%></div>
+		<div>Score:<% if(ward.reviews.length > 0) { %>
+					<% let ratings = 0 %>
+					<%for(let i=0; i < ward.reviews.length; i++) {%>
+						<% ratings += ward.reviews[i].rating %>
+					<% } %>
+					<%= Math.round(100 * (ratings / ward.reviews.length)) /100  %>
+					 / 5
+					<% }else { %>
+						No Reviews Yet
+						<% } %>
+		
+		</div>
 		<div>Number of Reviews: <%=ward.reviews.length%></div>
 
 	</div>
@@ -52,9 +61,9 @@
 		<h1>Write a Review</h1>
 			<form action="/profile/<%= number %>/new" method="POST">
 				Username: <input type="text" name="username"><br>
-				Date: <input type="text" name="date"><br>
+				Date: <input type="date" name="date"><br>
 				Body: <input type="text" name="body"><br>
-				Rating <input type="text" name="rating"><br>
+				Rating: <input type="number" min="0" max="5" name="rating"><br>
 				<button type="submit" value="Publish Review">New Review</button><br>
 			</form>
 		
@@ -71,11 +80,12 @@
 		<br>
 		<p><%=review.body%></p>
 
-		<form>
-			<button>Like</button>
-			<button>Edit</button>
-
-		</form><br><br>
+		<section>
+			<button><a href="/profile/<%= review._id%>/edit/<%= number %>">Edit</a></button>
+			<form action="/profile/<%= review._id%>/<%= number %>?_method=DELETE" method="POST">
+				<input type="submit" value="Delete">
+			</form><br><br>
+		</section>
 
 		<%})%>
 	</div>
