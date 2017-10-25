@@ -7,6 +7,18 @@ const methodOverride = require('method-override');
 require('./db/db');
 
 
+
+
+app.use(session({
+	secret: 'This is some string you create',
+	resave: false,
+	saveUninitialized: false
+}))
+
+
+
+
+
 //Controllers
 const adminController = require('./controllers/admin');
 const usersController = require('./controllers/users');

@@ -5,7 +5,7 @@
 
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link href="styles/style.css" rel="stylesheet">
+	<link href="/styles/style.css" rel="stylesheet">
 </head>
 <body>
 
@@ -22,14 +22,35 @@
 	</div>
 
 
+	<% if(!logged){ %>
+
+		<form action="login" method="POST">
+			<span id="login">
+			    Username:  <input type="text" name="username">
+		        Password:  <input type="password" name="password">
+		        <button>Login</button>
+		    </span>
+		</form>
+	<% } %>
 
 
-	<span id="login">
-	    Username:  <input type="text" name="username">
-        Password:  <input type="password" name="password">
-        <button>Login</button>
-    </span>
+	<% if(message){ %>
+	<h4><%= message %></h4>
+
+	<% } %>
+
+	<span><%= notLoggedInMessage%></span>
+
+
 </header>
+
+
+
+
+
+
+
+
 
 
 
