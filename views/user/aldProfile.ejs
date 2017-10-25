@@ -11,23 +11,29 @@
 
 <header>
 
-	<span id="pages">
-		
-		  <a id="nav" href="/">Home</a>
-		  <a id="nav" href="#">Content</a>
-		  <a id="nav" href="#">Contribute</a>
-		  <a id="nav" href="/about">About</a>
-		
-	</span>
+
+	<div class="dropdown" style="float:left;">
+	  <button class="dropbtn">|||</button>
+	  <div class="dropdown-content" style="left:0;">
+	    <a href="/">Home</a>
+	    <a href="#">Profile</a>
+	    <a href="/about">About</a>
+	  </div>
+	</div>
+
+
+
 
 	<span id="login">
 	    Username:  <input type="text" name="username">
         Password:  <input type="password" name="password">
-        <button id="login">Login</button>
+        <button>Login</button>
     </span>
 </header>
 
 <br><br><br>
+
+	<main>
 
 
 	<div>
@@ -64,7 +70,7 @@
 			<form action="/profile/<%= number %>/new" method="POST">
 				Username: <input type="text" name="username"><br>
 				Date: <input type="date" name="date"><br>
-				Body: <input type="text" name="body"><br>
+				<textarea placeholder="Review goes here" name="body"></textarea><br>
 				Rating: <input type="number" min="0" max="5" name="rating"><br>
 				<button type="submit" value="Publish Review">New Review</button><br>
 			</form>
@@ -78,7 +84,7 @@
 		<h1>Reviews</h1> <br>
 		<%ward.reviews.forEach((review)=>{%>
 		<h3><%=review.username%></h3>
-		<div>Date: <%=review.date%> Rating: <%=review.rating%></div>
+		<div>Date: <%=review.date%> Rating: <%=review.rating%> / 5</div>
 		<br>
 		<p><%=review.body%></p>
 
@@ -98,7 +104,7 @@
 
 	
 
-
+	</main>
 
 
 <br><br><br>

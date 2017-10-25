@@ -1,6 +1,5 @@
 body {
   background-color: whitesmoke;
-  margin-left: 2%;
 }
 body header {
   height: 3rem;
@@ -76,6 +75,15 @@ body footer {
   padding-left: 5rem;
   background-color: #013248;
   color: white;
+}
+body main {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+body textarea {
+  width: 300px;
+  height: 150px;
 }
 body .background {
   fill: #eee;

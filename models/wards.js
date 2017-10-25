@@ -11,13 +11,6 @@ const wardSchema = new mongoose.Schema({
 	reviews: [Review.schema]
 });
 
-
-
-
-
-
-
-
 module.exports = mongoose.model('Ward', wardSchema)
 
 
