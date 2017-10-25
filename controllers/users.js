@@ -41,7 +41,7 @@ router.get('/:id', (req, res)=>{
 		} else{
 			// console.log(req.params.id)
 			res.render('user/aldProfile', {ward: ward[req.params.id],
-											number: req.params.id
+											number: req.params.id,
 											})
 
 		}

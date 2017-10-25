@@ -14,6 +14,7 @@ router.get('/', (req, res)=>{
 		} else{
 			const message = req.session.logged ? 'Hey Your logged congrats' : '';
 		
+		console.log(req.session)
 			res.render('user/index', {
 										ward: ward,
 										logged: req.session.logged,

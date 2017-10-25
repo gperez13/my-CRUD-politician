@@ -5,7 +5,7 @@ const User = require('./users')
 
 
 const reviewSchema = new mongoose.Schema({
-	username: [User.schema],
+	username: String,
 	date: String,
 	body: String,
 	rating: Number
