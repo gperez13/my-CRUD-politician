@@ -20,29 +20,21 @@
 	    <a href="/about">About</a>
 	  </div>
 	</div>
+	
+	<% if(!logged) { %>
+	<form action="/login" method="Post">
+    	<input type="text" placeholder="username" name="username">
+    	<input type="password" placeholder="password" name="password">
+    	<button id="gate" type="submit">Login</button>
+  	</form>
 
 
-	<% if(!logged){ %>
-
-		<form action="login" method="POST">
-			<span id="login">
-			    Username:  <input type="text" name="username">
-		        Password:  <input type="password" name="password">
-		        <button id="gate">Login</button>
-		    </span>
-		</form>
-	<% } %>
-
-
-	<% if(logged){ %>
-	<form action="logout" method="POST">
-		<button type="submit">Logout</button>
-	</form>
-
-	<% } %>
-
-	<span><%= notLoggedInMessage%></span>
-
+  <% } else { %>
+    	<form action="logout" method="POST">
+        	<button id="fence" type="submit">Logout</button>
+    	</form>
+    <%} %>
+		
 
 </header>
 

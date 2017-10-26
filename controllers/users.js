@@ -74,7 +74,6 @@ router.put('/:id/:number', (req, res) => {
 
 router.post('/login', (req, res) => {
   console.log(req.body)
-  console.log(req.body.username)
   User.findOne({username: req.body.username}, (err, user) => {
     if(err){
       res.send(err)

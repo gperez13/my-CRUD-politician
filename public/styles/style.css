@@ -97,6 +97,11 @@ header .dropdown:hover .dropbtn {
 }
 header #gate {
   margin-top: 10px;
+  margin-right: 10px;
+}
+header #fence {
+  margin-top: 10px;
+  margin-right: 10px;
 }
 header #nav {
   color: white;

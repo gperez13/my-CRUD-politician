@@ -25,18 +25,20 @@
 	<form action="/login" method="Post">
     	<input type="text" placeholder="username" name="username">
     	<input type="password" placeholder="password" name="password">
-    	<button type="submit">Login</button>
+    	<button id="gate" type="submit">Login</button>
   	</form>
+
 
   <% } else { %>
     	<form action="logout" method="POST">
-        	<button type="submit">Logout</button>
+        	<button id="fence" type="submit">Logout</button>
     	</form>
-
-
-    <% } %>
+    <%} %>
 
 </header>
+
+<br><br><br>
+
 
 <br><br><br>
 
