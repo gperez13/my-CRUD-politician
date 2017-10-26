@@ -21,56 +21,44 @@
 	  </div>
 	</div>
 
+ <% if(!logged) { %>
+	<form action="/login" method="Post">
+    	<input type="text" placeholder="username" name="username">
+    	<input type="password" placeholder="password" name="password">
+    	<button id="gate" type="submit">Login</button>
+  	</form>
 
-	<% if(!logged){ %>
-
-		<form action="login" method="POST">
-			<span id="login">
-			    Username:  <input type="text" name="username">
-		        Password:  <input type="password" name="password">
-		        <button id="gate">Login</button>
-		    </span>
-		</form>
-	<% } %>
-
-
-	<% if(logged){ %>
-	<form action="logout" method="POST">
-		<button id="fence" type="submit">Logout</button>
-	</form>
-
-	<% } %>
-
-	<span><%= notLoggedInMessage%></span>
-
+  <% } else { %>
+    	<form action="logout" method="POST">
+        	<button id="fence" type="submit">Logout</button>
+    	</form>
+    <%} %>
 
 </header>
 
 
-
-
-
-
 <br><br><br>
-
-
-
-
-
-
-
 
 
 <br><br><br>
 
 <main>
 
-
-
-
-
 	<svg></svg>
 	<script src="https://d3js.org/d3.v3.min.js"></script>
+
+	<br><br>
+	<h3>Create a Profile</h3>
+	<form action="/register" method="Post">
+    	<input type="text" placeholder="username" name="username">
+    	<input type="password" placeholder="password" name="password">
+    	<button type="submit">Register</button>
+  	</form>
+
+  <% if(message){ %>
+      <%= message %>
+   <% } %>
+
 
 </main>
 
