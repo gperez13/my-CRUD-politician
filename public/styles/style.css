@@ -103,6 +103,11 @@ header #fence {
   margin-top: 10px;
   margin-right: 10px;
 }
+header #title {
+  float: left;
+  color: white;
+  margin: 13px 0px 0px 10px;
+}
 header #nav {
   color: white;
 }
