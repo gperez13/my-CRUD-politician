@@ -3,7 +3,78 @@ body{
 	background-color: whitesmoke;
 	// margin-left: 2%;
 
-	header {
+
+
+	button {
+	  font-size: 12px;
+	  background-color: lightblue;
+	}
+	button:hover {
+	  background-color: orangered;
+	  color: white;
+	  transition-duration: 0.4s;
+	}
+
+	img {
+		height: 300px;
+		width: 300px;
+		margin: 40px 0px 0px 0px;
+		border: 7px solid white;
+		border-radius: 20px;
+	}
+
+
+
+
+
+main {
+	font-family: 'Open Sans';
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+}
+
+.background {
+  fill: #eee;
+  pointer-events: all;
+}
+
+.map-layer {
+  fill: #fff;
+  stroke: #aaa;
+}
+
+.effect-layer{
+  pointer-events:none;
+}
+
+text{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+text.big-text{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+
+#secret{
+	display: none;
+}
+
+
+
+
+}//End of Body
+
+
+header {
 
 
 	.dropbtn {
@@ -62,94 +133,39 @@ body{
 		font-size: 12px;
 
 
-		#login{
-			top: 10px;
+		#gate{
+			margin-top: 10px;
+
 		}
 		#nav{
 			color: white;
 		}
 
-	}//end of header tag
+
+}//end of header tag
 
 
-	button {
-	  font-size: 12px;
-	  background-color: lightblue;
-	}
-	button:hover {
-	  background-color: orangered;
-	  color: white;
-	  transition-duration: 0.4s;
-	}
-
-	img {
-		height: 300px;
-		width: 300px;
-		margin: 40px 0px 0px 0px;
-		border: 7px solid white;
-		border-radius: 20px;
-	}
+#flag{
+	float: right;
+	height: 75px;
+	width: 100px;
+	margin: 0px 100px 0px 0px;
+	border: none;
+	border-radius: 20px;
+}
 
 
 
-
-	footer{
+footer{
+	position: absolute;
 	width: 100%;
 	margin-top: -2.6rem;
-	padding-top: 5.2rem;
-	padding-bottom: 6.2rem;
+	padding-top: 3.2rem;
+	padding-bottom: 3.2rem;
 	padding-left: 5rem;
 	background-color: #013248;
 	color: white;
 
-	}
-
-main {
-	display: table;
-	margin: 0 auto;
-	text-align: center;
 }
-
-textarea {
-  width: 300px;
-  height: 150px;
-}
-
-.background {
-  fill: #eee;
-  pointer-events: all;
-}
-
-.map-layer {
-  fill: #fff;
-  stroke: #aaa;
-}
-
-.effect-layer{
-  pointer-events:none;
-}
-
-text{
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
-}
-
-text.big-text{
-  font-size: 30px;
-  font-weight: 400;
-}
-
-
-#secret{
-	display: none;
-}
-
-
-
-
-}
-
-
-
 
 
