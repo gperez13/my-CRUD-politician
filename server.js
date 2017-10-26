@@ -40,7 +40,7 @@ app.use(methodOverride('_method'));
 
 
 
-
+const port = process.env.PORT || 3000;
 
 
 
@@ -51,6 +51,6 @@ app.use('/profile', usersController);
 app.use('/', homeController);
 
 
-app.listen(3000, () =>{
+app.listen(port, () =>{
 	console.log('Your server is running')
 })
