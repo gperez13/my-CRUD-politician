@@ -23,13 +23,14 @@
 
 	<div id="title">Rate Your Chicago Aldermen</div>
 
-	
 	<% if(!logged) { %>
 	<form action="/login" method="Post">
     	<input type="text" placeholder="username" name="username">
     	<input type="password" placeholder="password" name="password">
     	<button id="gate" type="submit">Login</button>
   	</form>
+
+  	<%= message%>
 
 
   <% } else { %>
@@ -41,13 +42,14 @@
 
 </header>
 
+	<main>
 
 	<h1>Edit Your Review</h1>
 
 	<form action="/profile/<%= review._id %>/<%= number %>?_method=PUT" method="POST">
 		Username: <input type="text" name="username" value="<%= review.username%>"><br>
 		Date: <input type="date" name="date" value="<%= review.date %>"><br>
-		Body: <input type="text" name="body" value="<%= review.body %>"><br>
+		<textarea name="body" placeholder="<%= review.body %>"></textarea><br>
 		Rating: <input type="number" min="0" max="5" name="rating" value="<%= review.rating %>"><br>
 		<button type="submit">Update</button>
 	</form>
@@ -69,7 +71,7 @@
 
 
 
-
+	</main>
 	<footer> 
 
 	    <a href="/">Home</a>

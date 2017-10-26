@@ -26,7 +26,7 @@ router.get('/', (req, res)=>{
 })//end of home route
 
 router.get('/about', (req, res)=>{
-	res.render('user/about', {logged: req.session.logged})
+	res.render('user/about', {logged: req.session.logged, message: ''})
 })
 
 
@@ -99,9 +99,5 @@ router.post('/logout', (req, res)=>{
 		}
 	})
 })
-
-
-
-
 
 module.exports = router;
