@@ -42,6 +42,7 @@ router.get('/:id', (req, res)=>{
 			// console.log(req.params.id)
 			res.render('user/aldProfile', {ward: ward[req.params.id],
 											number: req.params.id,
+											logged: req.session.logged
 											})
 
 		}
@@ -87,6 +88,26 @@ router.put('/:id/:number', (req, res) => {
 })
 
 
+router.post('/login', (req, res)=>{
+	req.session.notLoggedMessage = '';
+	req.session.username = req.body.username;
+	req.session.logged = true;
+
+
+	res.redirect('/')
+})//end of login
+
+
+router.post('/logout', (req, res)=>{
+
+	req.session.destroy((err)=>{
+		if(err){
+			res.send('There has been an error, please try again')
+		} else{
+			res.redirect('/')
+		}
+	})
+})
 
 
 

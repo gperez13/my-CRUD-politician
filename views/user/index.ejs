@@ -34,8 +34,10 @@
 	<% } %>
 
 
-	<% if(message){ %>
-	<h4><%= message %></h4>
+	<% if(logged){ %>
+	<form action="logout" method="POST">
+		<button type="submit">Logout</button>
+	</form>
 
 	<% } %>
 

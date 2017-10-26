@@ -22,15 +22,28 @@
 	</div>
 
 
+	<% if(!logged){ %>
+
+		<form action="login" method="POST">
+			<span id="login">
+			    Username:  <input type="text" name="username">
+		        Password:  <input type="password" name="password">
+		        <button>Login</button>
+		    </span>
+		</form>
+	<% } %>
 
 
-	<span id="login">
-	    Username:  <input type="text" name="username">
-        Password:  <input type="password" name="password">
-        <button>Login</button>
-    </span>
+	<% if(logged){ %>
+	<form action="logout" method="POST">
+		<button type="submit">Logout</button>
+	</form>
+
+	<% } %>
+
+
+
 </header>
-
 
 <br><br><br>
 
