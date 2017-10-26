@@ -16,7 +16,6 @@
 	  <button class="dropbtn">|||</button>
 	  <div class="dropdown-content" style="left:0;">
 	    <a href="/">Home</a>
-	    <a href="#">Profile</a>
 	    <a href="/about">About</a>
 	  </div>
 	</div>
@@ -76,10 +75,12 @@
 
 <br><br><br>
 
+<% if(logged) { %>
+
 	<div>
 		<h1>Write a Review</h1>
 			<form action="/profile/<%= number %>/new" method="POST">
-				Username: <input type="text" name="username"><br>
+				Username: <input type="text" value="<%= username%>" name="username"><br>
 				Date: <input type="date" name="date"><br>
 				<textarea placeholder="Review goes here" name="body"></textarea><br>
 				Rating: <input type="number" min="0" max="5" name="rating"><br>
@@ -87,6 +88,7 @@
 			</form>
 		
 	</div>
+<% }%>
 
 	<br>
 	<br>
@@ -99,12 +101,14 @@
 		<br>
 		<p><%=review.body%></p>
 
+		<% if(logged) { %>
 		<section>
 			<button><a href="/profile/<%= review._id%>/edit/<%= number %>">Edit</a></button>
 			<form action="/profile/<%= review._id%>/<%= number %>?_method=DELETE" method="POST">
 				<input type="submit" value="Delete">
 			</form><br><br>
 		</section>
+		<% }%>
 
 		<%})%>
 	</div>
@@ -121,7 +125,6 @@
 	<footer> 
 
 	    <a href="/">Home</a>
-	    <a href="#">Profile</a>
 	    <a href="/about">About</a>
 
 	    <img id="flag" src="https://media1.britannica.com/eb-media/58/194558-131-DC0DA257.jpg">

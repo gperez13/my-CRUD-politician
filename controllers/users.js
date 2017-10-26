@@ -14,6 +14,7 @@ router.get('/:id/edit/:number', (req, res) => {
 											reviewWard: foundWard,
 											message: '',
 											logged: req.session.logged,
+											username: req.session.username,
 											number: req.params.number
 				})
 			})
@@ -30,6 +31,7 @@ router.get('/:id', (req, res)=>{
 			res.render('user/aldProfile', {ward: ward[req.params.id],
 											number: req.params.id,
 											message: '',
+											username: req.session.username,
 											logged: req.session.logged
 											})
 

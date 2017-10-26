@@ -13,12 +13,13 @@ router.get('/', (req, res)=>{
 		if(err){
 			res.send('There has been an error with your database')
 		} else{
-
+      const cullen = "love it";
 			const message = req.session.logged ? 'Hey Your logged congrats' : '';
 
 			res.render('user/index', {
 										ward: ward,
 										logged: req.session.logged,
+                    cullen: cullen,
 										message: ''	
 									})
 		}
