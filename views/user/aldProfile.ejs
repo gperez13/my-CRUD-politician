@@ -21,14 +21,19 @@
 	  </div>
 	</div>
 
+	<% if(!logged) { %>
+	<form action="/login" method="POST">
+    	<input type="text" placeholder="username" name="username">
+    	<input type="password" placeholder="password" name="password">
+    	<button type="submit">Login</button>
+  	</form>
 
+  <% } else { %>
+    	<form action="/logout" method="POST">
+        	<button type="submit">Logout</button>
+    	</form>
 
-
-	<span id="login">
-	    Username:  <input type="text" name="username">
-        Password:  <input type="password" name="password">
-        <button>Login</button>
-    </span>
+  <% } %>
 </header>
 
 <br><br><br>

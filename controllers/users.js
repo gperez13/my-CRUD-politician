@@ -4,21 +4,6 @@ const Review = require('../models/reviews');
 const Ward = require('../models/wards');
 const User = require('../models/users');
 
-
-
-router.get('/', (req, res)=>{
-	Ward.find((err, ward)=>{
-		if(err){
-			res.send('There has been an error with your database')
-		} else{ 
-			res.render('user/aldProfile', {ward: ward,
-											number: req.params.id
-										})
-		}
-	})
-})//placeholder
-
-
 router.get('/:id/edit/:number', (req, res) => {
 	Review.findById(req.params.id, (err, review) => {
 		Ward.find((err, allWards) => {
@@ -41,7 +26,8 @@ router.get('/:id', (req, res)=>{
 		} else{
 			// console.log(req.params.id)
 			res.render('user/aldProfile', {ward: ward[req.params.id],
-											number: req.params.id
+											number: req.params.id,
+											logged: req.session.logged
 											})
 
 		}
@@ -86,12 +72,44 @@ router.put('/:id/:number', (req, res) => {
 	})
 })
 
+router.post('/login', (req, res) => {
+  console.log(req.body)
 
+  req.session.username = req.body.username;
+  req.session.logged = true;
+  console.log(req.body.username)
+  User.findOne({username: req.body.username}, (err, user) => {
+    if(err){
+      res.send(err)
+    } else {
+      console.log(user)
+            if(user){
 
+                    if(bcrypt.compareSync(req.body.password, user.password)){
+                      req.session.logged = true;
+                      req.session.username = user.username;
+                      res.redirect('/')
+                    } else {
+                      res.render('user/index', {message: 'login incorrect', logged: req.session.logged})
+                    }
 
+            } else {
+               res.render('user/index', {message: 'login incorrect', logged: req.session.logged})
+            }
+    }
+  })
+})
 
+router.post('/logout', (req, res)=>{
 
-
+    req.session.destroy((err)=>{
+        if(err){
+            res.send('There has been an error, please try again')
+        } else{
+            res.redirect('/')
+        }
+    })
+})
 
 
 module.exports = router;
