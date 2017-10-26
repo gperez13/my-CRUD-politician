@@ -13,13 +13,11 @@ router.get('/', (req, res)=>{
 		if(err){
 			res.send('There has been an error with your database')
 		} else{
-      const cullen = "love it";
 			const message = req.session.logged ? 'Hey Your logged congrats' : '';
 
 			res.render('user/index', {
 										ward: ward,
 										logged: req.session.logged,
-                    cullen: cullen,
 										message: ''	
 									})
 		}
@@ -79,11 +77,11 @@ router.post('/login', (req, res) => {
                       req.session.username = user.username;
                       res.redirect('/')
                     } else {
-                      res.render('user/index', {message: 'login incorrect', logged: req.session.logged})
+                      res.render('user/index', {message: 'INCORRECT USERNAME AND/OR PASSWORD', logged: req.session.logged})
                     }
 
             } else {
-               res.render('user/index', {message: 'login incorrect', logged: req.session.logged})
+               res.render('user/index', {message: 'INCORRECT USERNAME AND/OR PASSWORD', logged: req.session.logged})
             }
     }
   })

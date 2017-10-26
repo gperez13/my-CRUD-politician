@@ -29,8 +29,8 @@
     	<input type="password" placeholder="password" name="password">
     	<button id="gate" type="submit">Login</button>
   	</form>
-
-  	<%= message%>
+<br><br>
+  	<div style="margin-right: 20px; color: #B00A00"><%= message%></div>
 
 
   <% } else { %>
@@ -61,7 +61,7 @@
   	</form>
 
   <% if(message){ %>
-      <%= message %>
+      <div style="margin-right: 20px; margin-top: 10px; color: #B00A00"> <%= message %></div>
    <% } %>
 
 
