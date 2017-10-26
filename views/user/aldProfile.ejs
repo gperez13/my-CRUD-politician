@@ -29,6 +29,8 @@
     	<button id="gate" type="submit">Login</button>
   	</form>
 
+  	<%= message%>
+
   <% } else { %>
     	<form action="/logout" method="POST">
         	<button id="fence" type="submit">Logout</button>
@@ -75,7 +77,7 @@
 	<div>
 		<h1>Write a Review</h1>
 			<form action="/profile/<%= number %>/new" method="POST">
-				Username: <input type="text" name="username">session<br>
+				Username: <input type="text" name="username"><br>
 				Date: <input type="date" name="date"><br>
 				<textarea placeholder="Review goes here" name="body"></textarea><br>
 				Rating: <input type="number" min="0" max="5" name="rating"><br>
@@ -105,11 +107,6 @@
 		<%})%>
 	</div>
 
-
-<p>---------------------------------------------------------------</p>
-
-
-	
 
 	</main>
 
