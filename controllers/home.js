@@ -13,7 +13,9 @@ router.get('/', (req, res)=>{
 		if(err){
 			res.send('There has been an error with your database')
 		} else{
-	
+
+			const message = req.session.logged ? 'Hey Your logged congrats' : '';
+
 			res.render('user/index', {
 										ward: ward,
 										logged: req.session.logged,
@@ -24,7 +26,7 @@ router.get('/', (req, res)=>{
 })//end of home route
 
 router.get('/about', (req, res)=>{
-	res.render('user/about', {})
+	res.render('user/about', {logged: req.session.logged})
 })
 
 
@@ -89,15 +91,16 @@ router.post('/login', (req, res) => {
   })
 })
 
+
 router.post('/logout', (req, res)=>{
 
-    req.session.destroy((err)=>{
-        if(err){
-            res.send('There has been an error, please try again')
-        } else{
-            res.redirect('/')
-        }
-    })
+	req.session.destroy((err)=>{
+		if(err){
+			res.send('There has been an error, please try again')
+		} else{
+			res.redirect('/')
+		}
+	})
 })
 
 
