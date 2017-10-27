@@ -93,25 +93,31 @@
 	<br>
 	<br>
 
-	<div>
-		<h1>Reviews</h1> <br>
+	
+		<h1 style="text-decoration: underline;">Reviews</h1> <br>
+
+
 		<%ward.reviews.forEach((review)=>{%>
+		<div id=userreview>
 		<h3><%=review.username%></h3>
-		<div>Date: <%=review.date%> Rating: <%=review.rating%> / 5</div>
+		<div>Date: <%=review.date%> </div>
+		<div>Rating: <%=review.rating%> / 5</div>
 		<br>
 		<p><%=review.body%></p>
-
+		
 		<% if(logged) { %>
 		<section>
 			<button><a href="/profile/<%= review._id%>/edit/<%= number %>">Edit</a></button>
 			<form action="/profile/<%= review._id%>/<%= number %>?_method=DELETE" method="POST">
 				<input type="submit" value="Delete">
-			</form><br><br>
+			</form>
+		
 		</section>
+		
 		<% }%>
-
+		</div> <br><br>
 		<%})%>
-	</div>
+
 
 
 	</main>

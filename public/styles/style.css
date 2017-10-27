@@ -23,6 +23,10 @@ body main {
   margin: 0 auto;
   text-align: center;
 }
+body #userreview {
+  background-color: #eee;
+  width: 100%;
+}
 body textarea {
   width: 300px;
   height: 150px;
