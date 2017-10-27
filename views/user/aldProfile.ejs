@@ -99,11 +99,11 @@
 
 		<%ward.reviews.forEach((review)=>{%>
 		<div id=userreview>
-		<h3><%=review.username%></h3>
-		<div>Date: <%=review.date%> </div>
+		<h5><%=review.body%></h5>
 		<div>Rating: <%=review.rating%> / 5</div>
+		<div><%=review.username%></div>
+		<div>Date: <%=review.date%> </div>
 		<br>
-		<p><%=review.body%></p>
 		
 		<% if(logged) { %>
 		<section>
